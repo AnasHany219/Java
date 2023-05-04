@@ -26,7 +26,7 @@ public class User_Input {
     // printf
         System.out.printf("Num1 = %d Num2 = %d %n", x, y);
     /*
-    %d : [bgyte, short, int, long]
+    %d : [byte, short, int, long]
     %f : [float, double]
     %C : Characters Capital C will uppercase the letter
     %S : String Capital S will uppercase all the letters in the string
