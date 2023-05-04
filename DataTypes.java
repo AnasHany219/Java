@@ -6,8 +6,8 @@ public class DataTypes {
         System.out.println(bt);
         short   srt     = 51;           // -32768 : 32767
         System.out.println(srt);
-        int     intger  = 10;           // Max Value : 2147483647
-        System.out.println(intger);
+        int     integer  = 10;           // Max Value : 2147483647
+        System.out.println(integer);
         float   flt     = 10.5f;        // Max Value : .4028235E38
         System.out.println(flt);
         double  dbl     = 10.5d;        // Max Value : .7976931348623157E308
