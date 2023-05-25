@@ -19,9 +19,7 @@ public class Function {
             System.out.println("MAX Number is: " + n3);
         }
     }
-    public static void min (int n1, int n2, int n3){
-        
-    }
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int num1, num2, num3;
