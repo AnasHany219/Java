@@ -1,5 +1,12 @@
 public class JavaApplication1 {
-
+    
+    public static void validate(int num){
+        if(num <= 0)
+            throw new ArithmeticException("The number must be greater then 0");
+        else
+            System.out.println("The number has been entered!");
+    }
+    
     public static void main(String[] args) {
         // Null Pointer
         try {
@@ -30,6 +37,12 @@ public class JavaApplication1 {
             return;
         }finally{
             System.out.println("Finally");
+        }
+        // throw exception
+        try {
+            validate(-1);
+        } catch (Exception e) {
+            System.out.println(e);
         }
     }
 }
