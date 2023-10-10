@@ -21,5 +21,15 @@ public class JavaApplication1 {
         } catch (ArrayIndexOutOfBoundsException | ArithmeticException e) {
             System.out.println(e);
         }
+        //Finally
+        try{
+            int []arr = new int[5];
+            arr[7] = 5;
+        }catch(ArrayIndexOutOfBoundsException ex){
+            System.out.println(ex);
+            return;
+        }finally{
+            System.out.println("Finally");
+        }
     }
 }
